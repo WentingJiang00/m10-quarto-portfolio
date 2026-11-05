@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "listings.html",
+    "href": "listings.html",
+    "title": "Projects and Learning Portfolio",
+    "section": "",
+    "text": "Selected Projects\nThis page presents my analytics projects and learning materials. The listing allows visitors to browse projects, filter them by topic, and open individual pages for additional details. The echo: false option disables the printing of code (only output is displayed).\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nCase 31 Customer Insights Dashboard\n\n\n\nCustomer Insights\n\nSurvey Research\n\nDashboard\n\n\n\nAn interactive dashboard examining customer satisfaction and employee-service performance.\n\n\n\nNov 5, 2026\n\n\n\n\n\n\n\n\n\n\nSQL Learning Portfolio\n\n\n\nSQL\n\nBigQuery\n\nData Analytics\n\n\n\nA collection of SQL and BigQuery notes, examples, and analytical query patterns.\n\n\n\nNov 4, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "My name is Wenting Jiang, I am a graduate student working on Digital Marketing at Cal Poly Pomona, I’m interested in customer insights, digital marketing, survey research, and data analytics. Additionally, I am focusing on researching and studying cross-border e-commerce and live streaming commerce.\n\n\n\nMy goal is to work in marketing analytics or customer insights and use data to support effective business decisions. Driven Digital Marketing professional with expertise in marketing analytics and customer insights. My goal is to leverage data analytics (SQL, BigQuery, R), user behavior tracking, and market research to optimize e-commerce marketing strategies, improve customer retention, and drive measurable revenue growth\n\n\n\n\nSQL and BigQuery\nSet up a Shopify store\nR and Quarto\nGoogle Analytics 4 (GA4)\nSurvey research\nCustomer and marketing analytics\n\n\n\n\nCalifornia State Polytechnic University, Pomona\nMaster of Science in Digital Marketing"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
+    "section": "",
+    "text": "My name is Wenting Jiang, I am a graduate student working on Digital Marketing at Cal Poly Pomona, I’m interested in customer insights, digital marketing, survey research, and data analytics. Additionally, I am focusing on researching and studying cross-border e-commerce and live streaming commerce."
+  },
+  {
+    "objectID": "index.html#career-aspirations",
+    "href": "index.html#career-aspirations",
+    "title": "Home",
+    "section": "",
+    "text": "My goal is to work in marketing analytics or customer insights and use data to support effective business decisions. Driven Digital Marketing professional with expertise in marketing analytics and customer insights. My goal is to leverage data analytics (SQL, BigQuery, R), user behavior tracking, and market research to optimize e-commerce marketing strategies, improve customer retention, and drive measurable revenue growth"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Home",
+    "section": "",
+    "text": "SQL and BigQuery\nSet up a Shopify store\nR and Quarto\nGoogle Analytics 4 (GA4)\nSurvey research\nCustomer and marketing analytics"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Home",
+    "section": "",
+    "text": "California State Polytechnic University, Pomona\nMaster of Science in Digital Marketing"
+  },
+  {
+    "objectID": "projects/sql-learning-portfolio.html",
+    "href": "projects/sql-learning-portfolio.html",
+    "title": "SQL Learning Portfolio",
+    "section": "",
+    "text": "Project Overview\nThis learning portfolio documents SQL techniques for selecting, filtering, grouping, and summarizing data.\n\n\nSkills Demonstrated\n\nConditional transformations with CASE\nRow-level filtering with WHERE\nGroup-level filtering with HAVING\nAggregate and conditional-aggregate functions\nAnalytical queries for customer and marketing data\n\n\n\nBusiness Application\nThese SQL techniques can support campaign measurement, customer segmentation, survey analysis, conversion-rate calculations, and performance reporting."
+  },
+  {
+    "objectID": "projects/case31-dashboard.html",
+    "href": "projects/case31-dashboard.html",
+    "title": "Case 31 Customer Insights Dashboard",
+    "section": "",
+    "text": "Project Overview\nThis project analyzes survey data from Employees Federal Credit Union. The dataset contains 128 respondents and measures employee service, overall ratings, loan usage, and customer perceptions.\n\n\nKey Measures\n\nOverall credit union rating\nEmployee courtesy\nEmployee helpfulness\nEmployee professionalism\nEmployee availability\nCurrent loan usage\n\n\n\nKey Findings\nMost valid responses rated the credit union as Excellent or Good. Employee courtesy and helpfulness received particularly strong ratings. The analysis also identified opportunities to improve employee availability and promote relevant loan products.\n\n\nDashboard\nView the Case 31 Dashboard"
+  },
+  {
+    "objectID": "css-scss.html",
+    "href": "css-scss.html",
+    "title": "Styling Quarto with CSS and SCSS",
+    "section": "",
+    "text": "A portfolio website should communicate information clearly while also presenting a consistent professional identity. CSS controls the visual appearance of HTML pages, while SCSS extends CSS with features such as variables and organized style sections."
+  },
+  {
+    "objectID": "css-scss.html#example-styled-card",
+    "href": "css-scss.html#example-styled-card",
+    "title": "Styling Quarto with CSS and SCSS",
+    "section": "Example Styled Card",
+    "text": "Example Styled Card\nThis card demonstrates how a custom SCSS class can be used inside a Quarto document. Reusable classes make it possible to apply the same format to multiple sections without repeating styling instructions."
+  }
+]

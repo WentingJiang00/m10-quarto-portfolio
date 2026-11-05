@@ -1,0 +1,33 @@
+---
+title: "Home"
+page-layout: full
+---
+
+# Welcome
+
+![](images/profile.jpeg){fig-alt="Professional profile photo of Wenting Jiang" width=220}
+
+## About Me
+
+My name is Wenting Jiang, I am a graduate student working on Digital Marketing at Cal Poly Pomona, I'm interested in customer insights, digital marketing, survey research, and data analytics. Additionally, I am focusing on researching and studying cross-border e-commerce and live streaming commerce.
+
+## Career Aspirations
+
+My goal is to work in marketing analytics or customer insights and use data to support effective business decisions. Driven Digital Marketing professional with expertise in marketing analytics and customer insights. My goal is to leverage data analytics (SQL, BigQuery, R), user behavior tracking, and market research to optimize e-commerce marketing strategies, improve customer retention, and drive measurable revenue growth
+
+## Skills
+
+-   SQL and BigQuery
+-   Set up a Shopify store
+-   R and Quarto
+-   Google Analytics 4 (GA4)
+-   Survey research
+-   Customer and marketing analytics
+
+## Education
+
+**California State Polytechnic University, Pomona**
+
+Master of Science in Digital Marketing
+
+

@@ -1,0 +1,32 @@
+---
+title: "Case 31 Customer Insights Dashboard"
+description: "An interactive dashboard examining customer satisfaction and employee-service performance."
+date: 2026-11-05
+categories: [Customer Insights, Survey Research, Dashboard]
+---
+
+# Project Overview
+
+This project analyzes survey data from Employees Federal Credit Union.
+The dataset contains 128 respondents and measures employee service,
+overall ratings, loan usage, and customer perceptions.
+
+# Key Measures
+
+- Overall credit union rating
+- Employee courtesy
+- Employee helpfulness
+- Employee professionalism
+- Employee availability
+- Current loan usage
+
+# Key Findings
+
+Most valid responses rated the credit union as Excellent or Good.
+Employee courtesy and helpfulness received particularly strong ratings.
+The analysis also identified opportunities to improve employee
+availability and promote relevant loan products.
+
+# Dashboard
+
+[View the Case 31 Dashboard](../dashboard.qmd)

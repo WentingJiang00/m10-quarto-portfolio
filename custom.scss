@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+
+$primary: #1f4e79;
+$link-color: #1769aa;
+$font-family-sans-serif: Arial, sans-serif;
+
+/*-- scss:rules --*/
+
+h1,
+h2 {
+  color: #1f4e79;
+}
+
+.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+img {
+  border-radius: 8px;
+}
+
+.portfolio-card {
+  background-color: #f4f7fa;
+  border-left: 5px solid #1f4e79;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+a {
+  font-weight: 500;
+}

@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My Data Analytics Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: CEP Dashboard
+      - href: css-scss.qmd
+        text: CSS/SCSS
+      - href: listings.qmd
+        text: Projects
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    toc: true
+    smooth-scroll: true

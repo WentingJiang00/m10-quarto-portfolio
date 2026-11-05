@@ -1,0 +1,25 @@
+---
+title: "SQL Learning Portfolio"
+description: "A collection of SQL and BigQuery notes, examples, and analytical query patterns."
+date: 2026-11-04
+categories: [SQL, BigQuery, Data Analytics]
+---
+
+# Project Overview
+
+This learning portfolio documents SQL techniques for selecting,
+filtering, grouping, and summarizing data.
+
+# Skills Demonstrated
+
+- Conditional transformations with `CASE`
+- Row-level filtering with `WHERE`
+- Group-level filtering with `HAVING`
+- Aggregate and conditional-aggregate functions
+- Analytical queries for customer and marketing data
+
+# Business Application
+
+These SQL techniques can support campaign measurement, customer
+segmentation, survey analysis, conversion-rate calculations, and
+performance reporting.

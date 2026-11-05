@@ -1,0 +1,18 @@
+---
+title: "Projects and Learning Portfolio"
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+  fields: [title, description, date, categories]
+  filter-ui: true
+  sort-ui: true
+  page-size: 6
+---
+
+# Selected Projects
+
+This page presents my analytics projects and learning materials. The
+listing allows visitors to browse projects, filter them by topic, and
+open individual pages for additional details.
+The `echo: false` option disables the printing of code (only output is displayed).

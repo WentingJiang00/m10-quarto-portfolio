@@ -1,0 +1,17 @@
+{
+  "hash": "6b1cf51595113c7b4e11cd90664a426f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Case 31 Customer Insights Dashboard\"\nformat: dashboard\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n::: {.cell}\n\n:::\n\n\n# Key Indicators\n\n## Row\n\n::: {.valuebox}\n### Survey Responses\n\n128\n:::\n\n::: {.valuebox}\n### Excellent or Good Rating\n\n84.3%\n:::\n\n::: {.valuebox}\n### Employee Performance (out of 5)\n\n4.21\n:::\n\n::: {.valuebox}\n### Currently Have a Loan\n\n45.3%\n:::\n\n# Overall Rating\n\n## Row\n\n::: {.card}\n### Overall Credit Union Rating\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-2-1.png){width=768}\n:::\n:::\n\n:::\n\n# Employee Service\n\n## Row\n\n::: {.card}\n### Average Employee-Service Scores\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-3-1.png){width=768}\n:::\n:::\n\n:::\n\n# Interpretation\n\n::: {.card}\n### Key Findings\n\n- Most respondents rated the credit union as either Excellent or Good.\n- Employee courtesy received the strongest average score.\n- Employee availability and professionalism received slightly lower scores.\n- Fewer than half of respondents reported currently having a loan.\n:::\n\n::: {.card}\n### Business Recommendations\n\n- Maintain the strong employee courtesy and helpfulness performance.\n- Investigate opportunities to improve employee availability.\n- Promote relevant loan products to qualified members.\n- Continue monitoring overall ratings and service-quality measures.\n:::",
+    "supporting": [
+      "dashboard_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

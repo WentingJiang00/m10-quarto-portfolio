@@ -1,0 +1,144 @@
+---
+title: "Case 31 Customer Insights Dashboard"
+format: dashboard
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+library(haven)
+library(dplyr)
+library(ggplot2)
+
+case31 <- read_sav("Case 31 Data_efcu_1.sav")
+
+overall_rating <- as_factor(case31$q37)
+current_loan <- as_factor(case31$q27)
+
+satisfaction_rate <- sum(
+  overall_rating %in% c("Excellent", "Good")
+) / sum(!is.na(overall_rating)) * 100
+
+employee_score <- mean(
+  case31$employeeperformance,
+  na.rm = TRUE
+)
+
+loan_rate <- mean(
+  current_loan == "Yes",
+  na.rm = TRUE
+) * 100
+```
+
+# Key Indicators
+
+## Row
+
+::: {.valuebox}
+### Survey Responses
+
+`r nrow(case31)`
+:::
+
+::: {.valuebox}
+### Excellent or Good Rating
+
+`r sprintf("%.1f%%", satisfaction_rate)`
+:::
+
+::: {.valuebox}
+### Employee Performance (out of 5)
+
+`r sprintf("%.2f", employee_score)`
+:::
+
+::: {.valuebox}
+### Currently Have a Loan
+
+`r sprintf("%.1f%%", loan_rate)`
+:::
+
+# Overall Rating
+
+## Row
+
+::: {.card}
+### Overall Credit Union Rating
+
+```{r}
+rating_data <- case31 |>
+  transmute(rating = as_factor(q37)) |>
+  filter(!is.na(rating), rating != "No Opinion") |>
+  count(rating)
+
+ggplot(rating_data, aes(x = rating, y = n, fill = rating)) +
+  geom_col(show.legend = FALSE) +
+  labs(
+    x = NULL,
+    y = "Number of Respondents",
+    title = "Overall Rating Distribution"
+  ) +
+  theme_minimal()
+```
+:::
+
+# Employee Service
+
+## Row
+
+::: {.card}
+### Average Employee-Service Scores
+
+```{r}
+employee_items <- data.frame(
+  measure = c(
+    "Courteous",
+    "Helpful",
+    "Professional",
+    "Available"
+  ),
+  score = c(
+    mean(case31$q3, na.rm = TRUE),
+    mean(case31$q4, na.rm = TRUE),
+    mean(case31$q5, na.rm = TRUE),
+    mean(case31$q6, na.rm = TRUE)
+  )
+)
+
+ggplot(
+  employee_items,
+  aes(x = reorder(measure, score), y = score)
+) +
+  geom_col(fill = "#1f4e79") +
+  coord_flip() +
+  scale_y_continuous(limits = c(0, 5)) +
+  labs(
+    x = NULL,
+    y = "Average Score",
+    title = "Employee-Service Ratings"
+  ) +
+  theme_minimal()
+```
+:::
+
+# Interpretation
+
+::: {.card}
+### Key Findings
+
+- Most respondents rated the credit union as either Excellent or Good.
+- Employee courtesy received the strongest average score.
+- Employee availability and professionalism received slightly lower scores.
+- Fewer than half of respondents reported currently having a loan.
+:::
+
+::: {.card}
+### Business Recommendations
+
+- Maintain the strong employee courtesy and helpfulness performance.
+- Investigate opportunities to improve employee availability.
+- Promote relevant loan products to qualified members.
+- Continue monitoring overall ratings and service-quality measures.
+:::

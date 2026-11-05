@@ -1,0 +1,64 @@
+---
+title: "Styling Quarto with CSS and SCSS"
+---
+
+# Why Website Styling Matters
+
+A portfolio website should communicate information clearly while also
+presenting a consistent professional identity. CSS controls the visual
+appearance of HTML pages, while SCSS extends CSS with features such as
+variables and organized style sections.
+
+# CSS and SCSS Applications
+
+CSS and SCSS can customize:
+
+- Website colors and typography
+- Navigation bars
+- Headings and hyperlinks
+- Images and cards
+- Page spacing
+- Dashboard elements
+- Mobile responsiveness
+
+# CSS versus SCSS
+
+CSS contains the final styling rules used by a browser. SCSS makes those
+rules easier to manage by supporting variables and reusable formatting.
+
+For example, a color can be defined once and reused throughout a website:
+
+```scss
+$primary-color: #1f4e79;
+
+h1,
+h2 {
+  color: $primary-color;
+}
+```
+
+If the value of `$primary-color` changes, every rule using that variable
+changes with it.
+
+# Styling Applied to This Portfolio
+
+This portfolio uses `custom.scss` to create consistent headings,
+navigation, links, images, and content cards.
+
+::: {.portfolio-card}
+## Example Styled Card
+
+This card demonstrates how a custom SCSS class can be used inside a
+Quarto document. Reusable classes make it possible to apply the same
+format to multiple sections without repeating styling instructions.
+:::
+
+# Benefits for an Analytics Portfolio
+
+Custom styling helps visitors understand the organization of a report.
+Consistent colors distinguish headings, cards can emphasize findings,
+and readable typography makes dashboards and research results easier
+to interpret.
+
+For a customer-insights portfolio, visual consistency also makes the
+website appear more credible and professional.
